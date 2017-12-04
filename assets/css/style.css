@@ -1,0 +1,21 @@
+nav{
+	background: white;
+	width: 100%;
+	height: 10%;
+	color: black;	
+}
+
+.navbar-nav{
+	margin-top: 0.5em;
+}
+
+.portada img{
+	width: 100%;
+	height: 10%;
+	padding: 0;
+	background-size: cover;
+}
+
+span .icon-bar {
+	color:black;
+}
