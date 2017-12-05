@@ -67,7 +67,7 @@ span .icon-bar {
 /*Rectangulo blanco*/
 .white_rec {
   border: 1px solid white;
-  height: 300px;
+  height: 350px;
   margin-top: 50px;
 }
 
@@ -77,26 +77,75 @@ span .icon-bar {
   vertical-align: middle;
   margin-top: 10px;
 }
-/*Rectángulo blanco*/
-/*.celbox {
-	height: 450px;
-  margin-top:40px;
-  border:#fff solid 1px;
-  border-left: none;
-  padding-left: 0;
-}
 
-/*Contenedor img cel*/
-./*boxpic{
+/*img cel texto*/
+/*.app_text {
   height: 450px;
+}*/
+
+.text_h2 {
+  font-weight: bold;
+  color: #FFF;
+  font-size: 3rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
-/*Img cel*/
-/*.phonepic{
+#text_p {
+  color: #FFF;
+  font-size: 1.6rem;
+  margin-bottom: 22px;
+}
+
+/*img cel texto responsive*/
+/*.small_text {
+  background-color: #f7b617;
+}
+
+.stext {
+  height: 520px;
+  margin-top: 40px;
+  margin-left: 4.5%;
+  border: white solid 1px;
+}
+
+.pequetext {
+  margin-top: 20px;
+}
+
+.text_h2s {
+  text-align: center;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.small_cel {
   background-image: url(../images/iPhone6Plus.png);
   width: auto;
-  height: 100%;
   background-repeat: no-repeat;
-  background-position: 60% 50%;
-  background-size: 65%;
+  background-position: center center;
+  background-size: 54%;
+  height: 440px;
+  margin-top: 75px;
 }
+
+.llega{
+  text-align: left;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: bold;margin: 8px;
+  padding-top: 30px;
+}
+
+
+/*texto responsive*/
+/*.white_rec h3 {
+  color: white;
+  font-weight: bolder;
+}
+
+.white_rec p{
+  color: white;
+}
+
