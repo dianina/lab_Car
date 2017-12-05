@@ -1,6 +1,6 @@
 /*Estilos body*/
 .body {
-	background: #f7b617;
+	background: #F7A733;
 }
 
 /*Estilos orange-box*/
@@ -165,6 +165,8 @@ background-size: cover;
 .bfilter {
   background-color: rgba(0,0,0, 0.5);
   height: 400px;
+  width: 100%;
+  margin-right: -55px; 
 }
 
 .bfilter h3 {
@@ -173,15 +175,104 @@ background-size: cover;
 }
 
 /* texto en el filtro */
-.text-black {
+.text-filter {
   color: white;
   margin-top: 90px;
   margin-left: 30px;
 }
 
 /* boton del filtro */
-.text-black button {
+.text-filter button {
   background-color: #F7A733;
   color: white;
   border: none;
+} 
+
+/* SECCION TARIFAS */
+
+.tarifas {
+  background-color: #F7A733;
+}
+
+.prices {
+  padding-top: 50px;
+  color: #FFF;
+}
+.partida {
+  display: inline-block;
+  background-color: #F7A733;
+  border:1px solid white;
+  color:white;
+  border-radius: 15px;
+
+}
+
+.shape1 {
+ padding-top: 30px;
+}
+
+.shape2 {
+  padding-top: 20px;
+}
+
+.button3 {
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+/*SECCIÓN 5, FONDO NEGRO FOOTER */
+
+.pie_pag {
+  background-color: #202020;
+  height: 400px;
+}
+
+.last-logo {
+  border-bottom:1px solid white;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 40px;
+}
+
+.last-white-logo {
+ width: 80px;
+ padding-bottom: 8px;
+}
+
+.row-footer {
+  margin-top: 20px;
+  font-weight:
+}
+
+.row-footer p{
+  color: white;
+}
+
+.logos {
+  margin-top: 140px;
+}
+
+.appstore, .googlePlay{
+  width:120px;
+  margin-top: 10px;
+}
+
+.icons {
+  color:white;
+  margin-left: 5%;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  width: 90%;
+
+}
+
+.icons i {
+  margin-right: 7px;
+  font-size: 12px;
+}
+
+.foot {
+  margin-left: 5%;
+  padding-top: 10px;
+  color: white;
 }
