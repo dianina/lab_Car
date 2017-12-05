@@ -37,12 +37,13 @@ span .icon-bar {
 
 /* Estilos (login)*/
 .box-login {
+	padding-left:0;
   color: #FFF;
   margin-top: 15em;
   padding: 2em;
 }
 
-/*  Logo LABCAR blanco */
+/*Logo Labcar blanco*/
 .logo{
   width: 6em;
   margin-left: 0.5em;
@@ -57,3 +58,29 @@ span .icon-bar {
   padding: 0 1em 0 1em;
 }
 
+/*Estilos sección celular*/
+.iphone {
+	background-color: #F7B617;
+  height: 532px;
+}
+
+.celbox {
+	height: 450px;
+  margin-top:40px;
+  border:#fff solid 1px;
+  border-left: none;
+  padding-left: 0;
+}
+
+.boxpic{
+  height: 450px;
+}
+
+.phonepic{
+  background-image: url(../images/iPhone6Plus.png);
+  width: auto;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 60% 50%;
+  background-size: 65%;
+}
