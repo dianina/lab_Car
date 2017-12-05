@@ -51,12 +51,12 @@ span .icon-bar {
   
 }
 
-.box {
+/*primary box-login {
   display: inline-block;
   width: 5em;
   height: auto;
   padding: 0 1em 0 1em;
-}
+}*/
 
 /*Estilos sección celular*/
 .iphone {
@@ -64,7 +64,21 @@ span .icon-bar {
   height: 532px;
 }
 
-.celbox {
+/*Rectangulo blanco*/
+.white_rec {
+  border: 1px solid white;
+  height: 300px;
+  margin-top: 50px;
+}
+
+/*img cel*/
+.white_rec img{
+  width: 250px;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+/*Rectángulo blanco*/
+/*.celbox {
 	height: 450px;
   margin-top:40px;
   border:#fff solid 1px;
@@ -72,11 +86,13 @@ span .icon-bar {
   padding-left: 0;
 }
 
-.boxpic{
+/*Contenedor img cel*/
+./*boxpic{
   height: 450px;
 }
 
-.phonepic{
+/*Img cel*/
+/*.phonepic{
   background-image: url(../images/iPhone6Plus.png);
   width: auto;
   height: 100%;
