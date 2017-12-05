@@ -67,7 +67,7 @@ span .icon-bar {
 /*Rectangulo blanco*/
 .white_rec {
   border: 1px solid white;
-  height: 350px;
+  height: 400px;
   margin-top: 50px;
 }
 
@@ -75,7 +75,8 @@ span .icon-bar {
 .white_rec img{
   width: 250px;
   vertical-align: middle;
-  margin-top: 10px;
+  margin-top: 85px;
+  margin-left: 75px;
 }
 
 /*img cel texto*/
@@ -100,42 +101,41 @@ span .icon-bar {
 /*img cel texto responsive*/
 /*.small_text {
   background-color: #f7b617;
-}
+}*/
 
-.stext {
-  height: 520px;
-  margin-top: 40px;
+/*.stext {
+  margin-top: 10px;
   margin-left: 4.5%;
-  border: white solid 1px;
 }
 
-.pequetext {
+/*.pequetext {
   margin-top: 20px;
-}
+}*/
 
 .text_h2s {
-  text-align: center;
+  text-align: left;
   color: #FFF;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
+  margin-top: -340px;
 }
 
-.small_cel {
+/*small_cel {
   background-image: url(../images/iPhone6Plus.png);
   width: auto;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 54%;
   height: 440px;
-  margin-top: 75px;
+  margin-top: 75px;*/
 }
 
-.llega{
+.destiny {
   text-align: left;
   color: #FFF;
   font-size: 18px;
-  font-weight: bold;margin: 8px;
-  padding-top: 30px;
+  font-weight: bold;
+  margin-top: 550px;
 }
 
 
@@ -149,3 +149,39 @@ span .icon-bar {
   color: white;
 }
 
+/*Sección conductor*/
+.driver_section {
+  width: 100%;
+  background-position: center;
+  background-image: url(../images/conduce.jpg);
+  height: 400px;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+/* rectángulo negro */
+.bfilter {
+  background-color: rgba(0,0,0, 0.5);
+  height: 400px;
+}
+
+.bfilter h3 {
+  color:white;
+  margin-top: 30px;
+}
+
+/* texto en el filtro */
+.text-black {
+  color: white;
+  margin-top: 90px;
+  margin-left: 30px;
+}
+
+/* boton del filtro */
+.text-black button {
+  background-color: #F7A733;
+  color: white;
+  border: none;
+}
