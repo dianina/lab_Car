@@ -1,3 +1,15 @@
+/*Estilos body*/
+.body {
+	background: #f7b617;
+}
+
+/*Estilos orange-box*/
+.primary {
+	background: #f7b617;
+}
+
+
+/*Estilos nav*/
 nav{
 	background: white;
 	width: 100%;
@@ -9,13 +21,39 @@ nav{
 	margin-top: 0.5em;
 }
 
-.portada img{
-	width: 100%;
-	height: 10%;
-	padding: 0;
-	background-size: cover;
-}
-
+/*invierto color menu hamburguesa*/
 span .icon-bar {
 	color:black;
 }
+
+/*estilos imagen portada*/
+.taxi {
+	background-image: url(../images/taxi.jpg);
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 60em;
+}
+
+/* Estilos (login)*/
+.box-login {
+  color: #FFF;
+  margin-top: 15em;
+  padding: 2em;
+}
+
+/*  Logo LABCAR blanco */
+.logo{
+  width: 6em;
+  margin-left: 0.5em;
+  margin-bottom: 0.3em;
+  
+}
+
+.box {
+  display: inline-block;
+  width: 5em;
+  height: auto;
+  padding: 0 1em 0 1em;
+}
+

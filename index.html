@@ -12,8 +12,8 @@
 </head>
 <body>
 
-<!-- Barra de navegación fija fondo invertido-->
-  <nav class="navbar navbar-default">
+<!-- Barra de navegación standard y fija-->
+  <nav class="navbar navbar-default navbar-fixed-top">
 
 <!-- Barra de navegación header y menu-->
     <div class="container-fluid">
@@ -40,33 +40,35 @@
       </div>
     </nav>
 
-<!-- Sección Portada-->
-    <section class="portada">
+<!-- Sección de login (primary-bootstrap) -->
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12">
-        <img src="assets/images/taxi.jpg" alt="portada">
-      <div class="col-md-4">
-        <div class="registrate">
-          <div class="jumbotron">
-          <h1>Hello, world!</h1>
-          <p>...</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+      <div class="taxi">
+        <div class="col-xs-10 col-xs-offset-2 col-sm-5 col-sm-offset-7 primary box-login">
+<!-- Sección en versión desktop -->
+          <div class="hidden-xs">
+            <h1>Disfruta del viaje<br>Eres dueño de tu tiempo</h1>
+            <h4>Viaja con <img class="logo"src="assets/images/logoBlanco.png" alt="Logo"> </h4>
+            <p><a class="btn btn-default btn-md" href="#" role="button">REGISTRATE</a></p>
+            <table width="100%">
+            <td class="lines"><hr /></td>
+            <td style="width:1px; padding: 0 10px; white-space: nowrap;">O bien</td>
+            <td><hr /></td>
+          </table>​
+            <p><a class="btn btn-default btn-md" href="#" role="button">Conviértete en un conductor</a></p>
           </div>
-        
-      </div>
+<!-- Sección mobile -->
+          <div class="hidden-sm hidden-md hidden-lg">
+            <h2>Comienza a viajar<br>con <img src="assets/images/logoBlanco.png" alt="Logo"></h2>
+            <p style="margin-top: 2em"><a class="btn btn-default btn-md" href="#" role="button">Descargar la app</a></p>
+          </div>
+        </div>
       </div>
     </div>
-    
-      
-    
-    </section>
-
-
+  </div>
 	  
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Enlace js de Bootstrap -->
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="assets/js/app.js"></script>
 </body>
 </html>
