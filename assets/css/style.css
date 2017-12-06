@@ -282,7 +282,11 @@ background-size: cover;
   border:1px solid white;
   color:white;
   border-radius: 15px;
+}
 
+/* Cambiar color de texto del placeholder */
+.form-control::-webkit-input-placeholder {
+  color: white;
 }
 
 .shape1 {
