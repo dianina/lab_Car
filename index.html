@@ -31,12 +31,14 @@
 <!-- Barras Menú hamburguesa-->
         <a href="#" class="navbar-brand"><img src="assets/images/logoForma.png" alt="logo"></a>
       </div>
-      <div class="collapse navbar-collapse" id="navbar-1">
+      <div class="collapse navbar-collapse conduce" id="navbar-1">
         <ul class="nav navbar-nav navbar-right">
 
 <!-- Opciones Menú-->
             <li><a href="">Viaja</a></li>
-            <li><a href="">Conduce</a></li>
+<!-- Modal Botón Conduce-->
+            <li><a href="#">Conduce</a>
+            </li>
             <li><a href="">Inicia sesión</a></li>
            </ul>
         </div>
@@ -52,8 +54,58 @@
           <div class="hidden-xs rectangle">
             <h1>Disfruta del viaje<br>Eres dueño de tu tiempo</h1>
             <h4>Viaja con <img class="logo"src="assets/images/logoBlanco.png" alt="Logo"> </h4>
-            <p><a class="btn btn-default btn-md" href="#" role="button">Regístrate</a></p>
-<!-- MODAL 1 --> 
+            <!--<p><a class="btn btn-default btn-md" href="#" role="button">Regístrate</a></p>-->
+<!-- Modal Botón Regístrate -->
+            <div class="container_reg" style="margin-top: 60px">
+              <button class="btn btn-normal btn_reg" data-toggle="modal" data-target="#miventana3">Regístrate</button>
+<!-- Filtro oscuro del modal -->
+              <div class="modal fade" id="miventana3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+<!-- Contenido modal y botón de cerrar (x) -->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<!-- Contenido formulario registrese -->
+              <form class="register">
+                <button type="button" class="btn btn-outline-dark con_cuenta btn-lg btn-block">¿Ya tienes una cuenta?</button>
+                <p class="text-center new_account"><a href="#">O CREA UNA NUEVA CUENTA.</a></p>
+                <form>
+              <div class="form-group">
+                <form class="form-inline">
+              <div class="form-group">
+                <label class="sr-only" for="exampleInputEmail3">Nombre</label>
+                <input type="nombre" class="form-control" id="exampleInputEmail3" placeholder="Nombre">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="exampleInputPassword3">Apellido</label>
+                <input type="apellido" class="form-control" id="exampleInputPassword3" placeholder="Apellido">
+              </div>
+              <div class="form-group">
+                <input type="pemail" class="form-control" id="exampleInputPassword1" placeholder="Correo electrónico">
+              </div>
+              <div class="form-group">
+                <input type="phone" class="form-control" id="exampleInputPassword1" placeholder="Teléfono">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+              </div>
+              <div class="form-group">
+                <input type="city" class="form-control" id="exampleInputPassword1" placeholder="Teléfono">
+              </div>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>¿Cómo te enteraste de nosotros?</option>
+                  </select>
+                    <button type="button" class="btn btn-info btn-lg btn-block send">Enviar</button>
+                </form>
+              </div>
+            </form>
+            </form>
+              </div>
+                </div>
+                  </div>
+                    </div>
+                      </div>
+<!-- Modal Botón Login --> 
           <div class="container_btn" style="margin-top: 60px">
             <button class="btn btn-normal btn_login" data-toggle="modal" data-target="#miventana">Login</button>
 <!-- Filtro oscuro del modal -->
@@ -67,9 +119,9 @@
 <!-- Contenido formulario login -->
               <form>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  <label for="exampleInputEmail1">Correo electrónico</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                  <small id="emailHelp" class="form-text text-muted">No compartiremos tu correo con nadie más.</small>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Password</label>
@@ -78,7 +130,7 @@
                 <div class="form-check">
                   <label class="form-check-label">
                     <input type="checkbox" class="form-check-input">
-                    Check me out
+                    Recordarme
                   </label>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
@@ -94,7 +146,47 @@
             <td style="width:1px; padding: 0 10px; white-space: nowrap;">O bien</td>
             <td><hr /></td>
             </table>​
-            <p><a class="btn btn-default btn-md driver" href="#" role="button">Conviértete en un conductor</a></p>
+<!-- Modal Botón Conviertete en conductor -->
+            <div class="container_modal"><button class="btn btn-default btn-md driver" data-toggle="modal" data-target="#miventana2">Conviértete en un conductor</button>
+<!-- Filtro oscuro del modal -->
+              <div class="modal fade" id="miventana2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+<!-- Contenido modal y botón de cerrar (x) -->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<!-- Contenido formulario login -->
+                      <div class="form-group">
+                        <label for="exampleFormControlSelect1">¿Tienes vehículo de 4 puertas?</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Si</option>
+                        </select>
+                        <label for="exampleFormControlSelect1">Marca</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Elige la marca del vehículo</option>
+                        </select>
+                        <small id="message" class="form-text text-muted">¿No ves tu vehículo en la lista?. Envía un correo electrónico a <a href="mailto:#">sociosmdv@uber.com</a>
+                        </address></small><br>
+                        <label for="exampleFormControlSelect1">Modelo</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Modelo 1</option>
+                        </select>
+                        <label for="exampleFormControlSelect1">Año</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>2017</option>
+                        </select>
+                        <label for="exampleFormControlSelect1">Patente</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Patente</option>
+                        </select>
+                        <small id="message" class="form-text text-muted">La información de la patente, ayuda a los clientes a identificar tu vehículo</small><br>
+                        <button type="button" class="btn btn-primary btn-lg btn-block send">Enviar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 <!-- Versión mobile -->
           <div class="hidden-sm hidden-md hidden-lg">
@@ -130,7 +222,7 @@
                 <div class="col-xs-11 col-sm-12 stext">
                 <div class="col-xs-12 col-sm-12 pequetext">
                   <h2 class="hidden-sm hidden-md hidden-lg text_h2s">La nueva app</h2>
-                  <h4 class="hidden-sm hidden-md hidden-lg destiny">Llega a tu destino, aún más rápido</h4></div>
+                  <!--<h4 class="hidden-sm hidden-md hidden-lg destiny">Llega a tu destino, aún más rápido</h4></div>-->
                 </div>
               </div>
             </div>
@@ -158,7 +250,7 @@
   <section class="tarifas">
     <!-- lado izquierdo tarifas -->
     <div class="row prices">
-      <div class="hidden-xs col-md-offset-1 col-md-4"><h3><strong>Tarifas</strong></h3> <p>Consulta las tarifas LabCar aquí</p>
+      <div class="hidden-xs hidden-sm col-md-offset-1 col-md-4"><h3><strong>Tarifas</strong></h3> <p>Consulta las tarifas LabCar aquí</p>
         <div class="row shape1">
           <div class="col-md-1"><img src="assets/images/shape.png" alt=""></div>
           <div class="col-md-10">

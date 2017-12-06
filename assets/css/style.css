@@ -26,6 +26,13 @@ span .icon-bar {
 	color:black;
 }
 
+/*Estilos modal botòn Conduce*/
+.conduce button {
+  background-color: #f7b617;
+  color: #000;
+  margin-top: 0.6em;
+}
+
 /*estilos imagen portada*/
 .taxi {
 	background-image: url(../images/taxi.jpg);
@@ -61,17 +68,50 @@ span .icon-bar {
 }
 
 .driver {
-  margin-left: 7em;
+  margin-right: 5.5em;
  float: right;
 }
 
-/* Estilos Modal 1*/
+/* Estilos Modal Regístrate*/
+.btn_reg{
+  margin-top: 0em;
+ 
+  color: #000;
+  margin-left: 9em;
+}
+.con_cuenta {
+  background-color: #000;
+}
+
+.new_account a {
+  margin-top: 0.6em;
+  margin-left: 14em;
+  display: inline-block;
+  
+}
+
+.us {
+  text-align: center center;
+  font-weight: bold;
+}
+
+.send {
+  margin-top: 2em;
+}
+
+/* Estilos Modal Login*/
 
 .container_btn {
   display: inline-block;
   margin-left: 17em;
   margin-top: -1.2em;
   color: #000;
+}
+
+.btn_login {
+  margin-top: -12.5em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .modal-header img {
@@ -86,6 +126,15 @@ span .icon-bar {
   padding: 0 1em 0 1em;
 }*/
 
+/* Estilos Modal Convierte en un conductor*/
+.form-group label {
+  color: #000;
+  padding-top: 0.5em;
+}
+
+.send button{
+  padding-top: 1em;
+}
 /*Estilos sección celular*/
 .iphone {
 	background-color: #F7B617;
@@ -141,7 +190,7 @@ span .icon-bar {
 }*/
 
 .text_h2s {
-  text-align: left;
+  margin-left: 1.5em;
   color: #FFF;
   font-size: 30px;
   font-weight: bold;
@@ -189,6 +238,7 @@ span .icon-bar {
 background-size: cover;
 }
 
+
 /* rectángulo negro */
 .bfilter {
   background-color: rgba(0,0,0, 0.5);
@@ -216,7 +266,7 @@ background-size: cover;
   border: none;
 } 
 
-/* SECCION TARIFAS */
+/* Sección tarifas */
 
 .tarifas {
   background-color: #F7A733;
@@ -248,8 +298,7 @@ background-size: cover;
   text-transform: uppercase;
 }
 
-/*SECCIÓN 5, FONDO NEGRO FOOTER */
-
+/*Footer */
 .pie_pag {
   background-color: #202020;
   height: 400px;
