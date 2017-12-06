@@ -8,12 +8,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <!-- Enlace temas de Bootstrap -->
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/modals.css">
 <!-- link Font awesome -->
 <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
   
 </head>
 <body>
-
 <nav>
 <!-- Barra de navegación standard y fija-->
   <nav class="navbar navbar-default navbar-fixed-top">
@@ -49,16 +49,52 @@
       <div class="taxi">
         <div class="col-xs-10 col-xs-offset-2 col-sm-5 col-sm-offset-7 primary box-login">
 <!-- Versión desktop -->
-          <div class="hidden-xs">
+          <div class="hidden-xs rectangle">
             <h1>Disfruta del viaje<br>Eres dueño de tu tiempo</h1>
             <h4>Viaja con <img class="logo"src="assets/images/logoBlanco.png" alt="Logo"> </h4>
-            <p><a class="btn btn-default btn-md" href="#" role="button">REGISTRATE</a></p>
+            <p><a class="btn btn-default btn-md" href="#" role="button">Regístrate</a></p>
+<!-- MODAL 1 --> 
+          <div class="container_btn" style="margin-top: 60px">
+            <button class="btn btn-normal btn_login" data-toggle="modal" data-target="#miventana">Login</button>
+<!-- Filtro oscuro del modal -->
+            <div class="modal fade" id="miventana" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+<!-- Contenido modal y botón de cerrar (x) -->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="assets/images/user.png" alt="">
+<!-- Contenido formulario login -->
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input">
+                    Check me out
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- Tabla para las líneas -->
             <table width="100%">
             <td class="lines"><hr /></td>
             <td style="width:1px; padding: 0 10px; white-space: nowrap;">O bien</td>
             <td><hr /></td>
-          </table>​
-            <p><a class="btn btn-default btn-md" href="#" role="button">Conviértete en un conductor</a></p>
+            </table>​
+            <p><a class="btn btn-default btn-md driver" href="#" role="button">Conviértete en un conductor</a></p>
           </div>
 <!-- Versión mobile -->
           <div class="hidden-sm hidden-md hidden-lg">

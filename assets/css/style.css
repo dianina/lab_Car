@@ -35,12 +35,21 @@ span .icon-bar {
   height: 60em;
 }
 
+.taxi p {
+  display: inline-block;
+  /*para alinear btn registro y login*/
+}
+
 /* Estilos (login)*/
 .box-login {
 	padding-left:0;
   color: #FFF;
   margin-top: 15em;
   padding: 2em;
+}
+
+.rectangle {
+  display: inline-block;
 }
 
 /*Logo Labcar blanco*/
@@ -51,6 +60,25 @@ span .icon-bar {
   
 }
 
+.driver {
+  margin-left: 7em;
+ float: right;
+}
+
+/* Estilos Modal 1*/
+
+.container_btn {
+  display: inline-block;
+  margin-left: 17em;
+  margin-top: -1.2em;
+  color: #000;
+}
+
+.modal-header img {
+  width: 6em;
+  height: 6em;
+  margin-left: 40%;
+}
 /*primary box-login {
   display: inline-block;
   width: 5em;
