@@ -1,10 +1,10 @@
-# RETO DE CODIGO LABCAR
-
-
-RETO UI
-----
+# LABCAR
 
 Recrear el siguiente sitio web (Versiones desktop y mobile). Además de apariencia pixel perfect, los botones deben tener modales. 
+
+![LabCar_preview](http://i68.tinypic.com/2n62bp.jpg)
+
+## Desarrollado para [Laboratoria](http://laboratoria.la)
 
 Para realizar este reto, requirí el dominio de:
 
