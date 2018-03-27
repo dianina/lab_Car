@@ -2,7 +2,7 @@
 
 Recrear el siguiente sitio web (Versiones desktop y mobile). Además de apariencia pixel perfect, los botones deben tener modales. 
 
-![LabCar_preview](http://i68.tinypic.com/2n62bp.jpg)
+![labcar1](https://user-images.githubusercontent.com/32283040/37944744-3e17918c-3153-11e8-8656-8f02c6ba66b0.jpeg)
 
 ## Desarrollado para [Laboratoria](http://laboratoria.la)
 
